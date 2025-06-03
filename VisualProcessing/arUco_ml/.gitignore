@@ -1,0 +1,9 @@
+
+/dataset
+/yolov8_env
+
+
+*.pt
+*.onnx
+*.engine
+runs/
