@@ -1,9 +1,9 @@
 """
-Search Mission with pose estimation of aruco marker for CHALLENGE 1
+Scout Search Mission for Challenge 2
 
 This script performs a search pattern mission. While the drone is
 following the search waypoints, it monitors for an ArUco marker. Once a marker
-is detected, the vehicle sends lattitude and longitude coordinates of the marker and lands.
+is detected, the vehicle sends lattitude and longitude coordinates to the package delivery drone and lands.
 """
 
 from dronekit import connect, VehicleMode, LocationGlobalRelative, LocationGlobal, Command
